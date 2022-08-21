@@ -14,6 +14,7 @@
 const { configure } = require('quasar/wrappers');
 const path = require('path');
 const { version } = require('./package.json');
+const PARSER = require('./variables/parser')();
 
 module.exports = configure((/* ctx */) => ({
   // https://quasar.dev/quasar-cli-webpack/quasar-config-js#property-htmlvariables
@@ -73,8 +74,8 @@ module.exports = configure((/* ctx */) => ({
     // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
     // publicPath: '/',
-    // analyze: true,
-    // env: {},
+    env: PARSER,
+    analyze: PARSER.ENVIRONMENT === 'local',
     // rawDefine: {}
     // ignorePublicFolder: true,
     // minify: false,
