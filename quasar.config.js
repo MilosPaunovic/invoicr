@@ -13,8 +13,12 @@
 
 const { configure } = require('quasar/wrappers');
 const path = require('path');
+const { version } = require('./package.json');
 
 module.exports = configure((/* ctx */) => ({
+  // https://quasar.dev/quasar-cli-webpack/quasar-config-js#property-htmlvariables
+  htmlVariables: { version },
+
   eslint: {
     // fix: true,
     // include = [],
