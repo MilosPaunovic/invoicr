@@ -6,6 +6,11 @@ node_modules
 .quasar
 /dist
 
+# Environment files
+.env*
+# Include only example file
+!.env.example
+
 # Cordova related directories and files
 /src-cordova/node_modules
 /src-cordova/platforms
