@@ -97,6 +97,10 @@ module.exports = {
     // does not work with type definitions
     'no-unused-vars': 'off',
 
+    'no-underscore-dangle': 'off',
+    'vue/multi-word-component-names': 'off',
+    'vue/no-reserved-component-names': 'off',
+
     // allow debugger during development only
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   }

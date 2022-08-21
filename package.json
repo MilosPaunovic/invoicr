@@ -1,13 +1,12 @@
 {
   "name": "invoicr",
   "version": "0.0.1",
-  "description": "Creating PDF invoices and showing all payment statistics.",
+  "description": "Creating PDF invoices and showing payment statistics.",
   "productName": "Invoicr",
   "author": "Milos Paunovic <paun992@hotmail.com>",
   "private": true,
   "scripts": {
-    "lint": "eslint --ext .js,.ts,.vue ./",
-    "test": "echo \"No test specified\" && exit 0"
+    "lint": "eslint --ext .js,.ts,.vue ./ --fix"
   },
   "dependencies": {
     "axios": "^0.21.1",
