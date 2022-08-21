@@ -3,3 +3,11 @@
 </p>
 
 Creating PDF invoices and showing payment statistics.
+
+### Start in development mode
+
+>  Change ENV to be local
+
+```bash
+npm run dev:ENV
+```
