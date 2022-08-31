@@ -46,15 +46,15 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@intlify/bundle-utils@^2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@intlify/bundle-utils/-/bundle-utils-2.2.2.tgz#fe65ce2549a73b99b75f3e66209d741b4f4d61fd"
-  integrity sha512-vngkvlIVV8ZJoyC5VqMvqJd2nvsx+qMN7pQjPiPjOrVndeiR7Dlue0k86Q8FsFUzyksW3HJZZi833ldxwbFzTA==
+"@intlify/bundle-utils@next":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@intlify/bundle-utils/-/bundle-utils-3.1.0.tgz#42bff44116bdb49621146cd5622c4c45019c8862"
+  integrity sha512-ghlJ0kR2cCQ8D+poKknC0Xx0ncOt3J3os7CcIAqqIWVF7k6AtGoCDnIru+YzlZcvFRNmP9wEZ7jKliojCdAWNg==
   dependencies:
-    "@intlify/message-compiler" "^9.1.0"
-    "@intlify/shared" "^9.1.0"
+    "@intlify/message-compiler" next
+    "@intlify/shared" next
     jsonc-eslint-parser "^1.0.1"
-    source-map "^0.6.1"
+    source-map "0.6.1"
     yaml-eslint-parser "^0.3.2"
 
 "@intlify/core-base@9.2.2":
@@ -74,7 +74,7 @@
   dependencies:
     "@intlify/shared" "9.2.2"
 
-"@intlify/message-compiler@9.2.2", "@intlify/message-compiler@^9.1.0":
+"@intlify/message-compiler@9.2.2":
   version "9.2.2"
   resolved "https://registry.yarnpkg.com/@intlify/message-compiler/-/message-compiler-9.2.2.tgz#e42ab6939b8ae5b3d21faf6a44045667a18bba1c"
   integrity sha512-IUrQW7byAKN2fMBe8z6sK6riG1pue95e5jfokn8hA5Q3Bqy4MBJ5lJAofUsawQJYHeoPJ7svMDyBaVJ4d0GTtA==
@@ -82,19 +82,32 @@
     "@intlify/shared" "9.2.2"
     source-map "0.6.1"
 
-"@intlify/shared@9.2.2", "@intlify/shared@^9.1.0":
+"@intlify/message-compiler@next":
+  version "9.3.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@intlify/message-compiler/-/message-compiler-9.3.0-beta.1.tgz#c8efb0a88af5d97d8ca42ef87561111f59936b0b"
+  integrity sha512-XHjwJB7qJciYA3T19ehBFpcmC1z+R4sMS43fEp30CLOOFLsrB0xuk0V2XeOFsHovaQ2LsK5x0qk+5+Dy6Hs7fw==
+  dependencies:
+    "@intlify/shared" "9.3.0-beta.1"
+    source-map "0.6.1"
+
+"@intlify/shared@9.2.2":
   version "9.2.2"
   resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-9.2.2.tgz#5011be9ca2b4ab86f8660739286e2707f9abb4a5"
   integrity sha512-wRwTpsslgZS5HNyM7uDQYZtxnbI12aGiBZURX3BTR9RFIKKRWpllTsgzHWvj3HKm3Y2Sh5LPC1r0PDCKEhVn9Q==
 
-"@intlify/vite-plugin-vue-i18n@^3.3.1":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@intlify/vite-plugin-vue-i18n/-/vite-plugin-vue-i18n-3.4.0.tgz#cf15b0d207a843227a5da0ac713f1a5b9d96e40b"
-  integrity sha512-XXcZBgwJ+3FRu11c4ARoY9N00kElPii0/jNZ49qR045Ka7/YGCwb1Ku14BBlMSEHiHDSjLQknLwrJKSQGVZLyA==
+"@intlify/shared@9.3.0-beta.1", "@intlify/shared@next":
+  version "9.3.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-9.3.0-beta.1.tgz#4ee8d9f431e5918f256b0198afb18e417a52185b"
+  integrity sha512-clf9EF4lY0sANjHlEndwfsR2hvYuq0TElq+gO/1xqH3FMGJwv+6lxJPOtoF4r2IE5RV3qX6YyZejZgdfbq2Yfg==
+
+"@intlify/vite-plugin-vue-i18n@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@intlify/vite-plugin-vue-i18n/-/vite-plugin-vue-i18n-6.0.1.tgz#6beaedc351b6a9fe37f9f23a43c200c56d2c34b6"
+  integrity sha512-FFVcxVU4bR9vdDLNbltM5mrhndnXMErO01i0RrpdyMegEt3Nu/YLoH0sFdjRun7/RY4vaEnhTnFvVf9uO0dQvg==
   dependencies:
-    "@intlify/bundle-utils" "^2.2.2"
-    "@intlify/shared" "^9.1.0"
-    "@rollup/pluginutils" "^4.1.0"
+    "@intlify/bundle-utils" next
+    "@intlify/shared" next
+    "@rollup/pluginutils" "^4.2.0"
     debug "^4.3.1"
     fast-glob "^3.2.5"
     source-map "0.6.1"
@@ -190,7 +203,7 @@
   resolved "https://registry.yarnpkg.com/@quasar/vite-plugin/-/vite-plugin-1.1.1.tgz#8c48de29e3ec9601430c36eea4cb7b709291c68a"
   integrity sha512-qTFXSprubTEdKxoWqmkQi8rwSRf6l5IvGD2svUFZzt3jz9brr2nBsRsUbhN4byryUwGdJ4HoN3vpoFi13A5uTQ==
 
-"@rollup/pluginutils@^4.1.0", "@rollup/pluginutils@^4.1.2":
+"@rollup/pluginutils@^4.1.2", "@rollup/pluginutils@^4.2.0":
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.2.1.tgz#e6c6c3aba0744edce3fb2074922d3776c0af2a6d"
   integrity sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==
