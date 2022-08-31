@@ -13,5 +13,5 @@ This project will try to follow [Semantic Commit Messages](https://gist.github.c
 >  Change ENV to be local
 
 ```bash
-npm run dev:ENV
+yarn dev:ENV
 ```
