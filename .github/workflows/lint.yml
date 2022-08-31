@@ -9,9 +9,10 @@ jobs:
   lint:
 
     runs-on: ubuntu-latest
-
-    matrix:
-      node: [18]
+    
+    strategy:
+      matrix:
+        node: [18]
 
     name: 'Lint'
 
