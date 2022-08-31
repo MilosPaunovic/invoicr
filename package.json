@@ -8,7 +8,6 @@
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./ --fix",
     "dev:local": "cross-env ENVIRONMENT=local quasar dev",
-    "prebuild:local": "cross-env ENVIRONMENT=local npm run lint",
     "build:local": "cross-env ENVIRONMENT=local quasar build --debug"
   },
   "dependencies": {
