@@ -21,7 +21,7 @@
   "devDependencies": {
     "@intlify/vite-plugin-vue-i18n": "^6.0.1",
     "@quasar/app-vite": "^1.0.6",
-    "@types/node": "^18.7.14",
+    "@types/node": "^18.7.15",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "autoprefixer": "^10.4.8",
