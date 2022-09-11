@@ -7,6 +7,10 @@
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./ --fix",
+    "test:e2e:local": "start-test \"quasar dev\" http-get://localhost:9200 \"cypress open\"",
+    "test:e2e:ci:local": "start-test \"quasar dev\" http-get://localhost:9200 \"cypress run\"",
+    "test:component:local": "cypress open-ct",
+    "test:component:ci:local": "cypress run-ct",
     "dev:local": "cross-env ENVIRONMENT=local quasar dev -m pwa",
     "build:local": "cross-env ENVIRONMENT=local quasar build -m pwa --debug"
   },
@@ -21,6 +25,8 @@
   "devDependencies": {
     "@intlify/vite-plugin-vue-i18n": "^6.0.1",
     "@quasar/app-vite": "^1.0.6",
+    "@quasar/quasar-app-extension-testing": "^2.0.4",
+    "@quasar/quasar-app-extension-testing-e2e-cypress": "^4.2.1",
     "@types/node": "^18.7.15",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
@@ -38,7 +44,8 @@
     "workbox-expiration": "^6.5.0",
     "workbox-precaching": "^6.5.0",
     "workbox-routing": "^6.5.0",
-    "workbox-strategies": "^6.5.0"
+    "workbox-strategies": "^6.5.0",
+    "eslint-plugin-cypress": "^2.11.3"
   },
   "engines": {
     "node": "^18 || ^16 || ^14.19",

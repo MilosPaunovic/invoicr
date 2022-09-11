@@ -1,0 +1,8 @@
+{
+  "e2e-cypress": {
+    "runnerCommand": "start-test \"quasar dev\" http-get://localhost:9200 \"cypress run\""
+  },
+  "component-cypress": {
+    "runnerCommand": "cypress run-ct"
+  }
+}
