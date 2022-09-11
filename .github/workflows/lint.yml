@@ -29,5 +29,5 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Build for staging server
+      - name: Linting files
         run: yarn lint
