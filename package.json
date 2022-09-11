@@ -7,8 +7,8 @@
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./ --fix",
-    "dev:local": "cross-env ENVIRONMENT=local quasar dev",
-    "build:local": "cross-env ENVIRONMENT=local quasar build --debug"
+    "dev:local": "cross-env ENVIRONMENT=local quasar dev -m pwa",
+    "build:local": "cross-env ENVIRONMENT=local quasar build -m pwa --debug"
   },
   "dependencies": {
     "@quasar/extras": "^1.15.2",
@@ -31,7 +31,14 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-vue": "^9.4.0",
-    "typescript": "^4.8.2"
+    "typescript": "^4.8.2",
+    "workbox-build": "^6.5.0",
+    "workbox-cacheable-response": "^6.5.0",
+    "workbox-core": "^6.5.0",
+    "workbox-expiration": "^6.5.0",
+    "workbox-precaching": "^6.5.0",
+    "workbox-routing": "^6.5.0",
+    "workbox-strategies": "^6.5.0"
   },
   "engines": {
     "node": "^18 || ^16 || ^14.19",
