@@ -97,6 +97,8 @@ module.exports = {
     // does not work with type definitions
     'no-unused-vars': 'off',
 
+    'no-undef': 'off',
+
     'no-underscore-dangle': 'off',
     'vue/multi-word-component-names': 'off',
     'vue/no-reserved-component-names': 'off',
