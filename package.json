@@ -15,7 +15,7 @@
     "build:local": "cross-env ENVIRONMENT=local quasar build -m pwa --debug"
   },
   "dependencies": {
-    "@quasar/extras": "^1.15.2",
+    "@quasar/extras": "^1.15.6",
     "pinia": "^2.0.21",
     "quasar": "^2.7.7",
     "vue": "^3.2.38",
