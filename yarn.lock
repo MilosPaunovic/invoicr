@@ -1292,10 +1292,10 @@
     start-server-and-test "^1.14.0"
     vite-plugin-istanbul "^2.5.1"
 
-"@quasar/quasar-app-extension-testing@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@quasar/quasar-app-extension-testing/-/quasar-app-extension-testing-2.0.4.tgz#e9035b267ca73ac97edbb50e1a740b624337e45b"
-  integrity sha512-Lb68RFI94BrO6YvZGRG87QrEeKUkUQ21UDCTf4yXyrXGSwdtdCv9CiutblZHHHqdl9W0xS8rcZ+cF6yqAS5kJA==
+"@quasar/quasar-app-extension-testing@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@quasar/quasar-app-extension-testing/-/quasar-app-extension-testing-2.0.6.tgz#59b441fb17947e7f995ac11fc8ba689f463499e6"
+  integrity sha512-mkGHOLuMNJ56UDpRtScvUMW4PQsF4Ys4sxYiTePMSRn+ms1hcRQh1RacC/nyY4p2Do8KKg3Q0cRphsEFWqsb0g==
   dependencies:
     chalk "^4.1.1"
     execa "^5.1.1"
