@@ -27,7 +27,7 @@
     "@quasar/app-vite": "^1.0.6",
     "@quasar/quasar-app-extension-testing": "^2.0.4",
     "@quasar/quasar-app-extension-testing-e2e-cypress": "^4.2.1",
-    "@types/node": "^18.11.9",
+    "@types/node": "^18.15.3",
     "@typescript-eslint/eslint-plugin": "^5.46.1",
     "@typescript-eslint/parser": "^5.42.1",
     "autoprefixer": "^10.4.13",
