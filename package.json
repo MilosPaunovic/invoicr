@@ -28,7 +28,7 @@
     "@quasar/quasar-app-extension-testing": "^2.1.0",
     "@quasar/quasar-app-extension-testing-e2e-cypress": "^4.2.2",
     "@types/node": "^18.15.11",
-    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
     "@typescript-eslint/parser": "^5.42.1",
     "autoprefixer": "^10.4.13",
     "cross-env": "^7.0.3",
